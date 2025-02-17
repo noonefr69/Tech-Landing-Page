@@ -20,7 +20,7 @@ const inter = Inter({
 export default function MemberShip() {
   return (
     <div className="mt-16">
-      <h1 className="text-4xl md:text-6xl md:max-w-[768px] text-[#062630] text-center font-semibold mb-6">
+      <h1 className="text-4xl md:text-6xl md:max-w-[768px] text-[#062630] mx-auto text-center font-semibold mb-6">
         Membership options
       </h1>
       <div className="md:px-10 px-4 flex flex-col gap-4 md:grid md:grid-cols-2 md:max-w-[768px] mx-auto">
