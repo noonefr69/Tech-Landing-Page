@@ -12,10 +12,10 @@ const inter = Inter({
 
 export default function Main() {
   return (
-    <div className="mt-14 px-4">
-      <div>
-        <h1 className="text-[#062630] text-4xl font-semibold mb-12">
-          Read together, <br /> grow together
+    <div className="mt-14 px-4 md:max-w-[768px] md:mx-auto">
+      <div className="md:px-8">
+        <h1 className="text-[#062630] text-4xl md:text-6xl md:max-w-[80%] font-semibold mb-12">
+          Read together, grow together
         </h1>
         <ul className="flex flex-col gap-4 mb-7">
           <li
@@ -49,9 +49,9 @@ export default function Main() {
           alt="image-read-together-mobile.webp"
         />
       </div>
-      <div className="mt-14">
+      <div className="mt-14 md:px-8">
         {" "}
-        <h1 className="text-[#062630] text-4xl font-semibold mb-7">
+        <h1 className="text-[#062630] text-4xl md:text-6xl font-semibold mb-7">
           Not your average <br /> book club
         </h1>
         <p className={`text-[20px] text-[#385159] mb-7 ${inter.className}`}>
@@ -63,7 +63,7 @@ export default function Main() {
         </p>
         <div className="relative">
           <Image
-            className="rounded-xl"
+            className="rounded-xl w-full"
             src={pic2}
             alt="image-read-together-mobile.webp"
           />

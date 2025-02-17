@@ -7,8 +7,10 @@ import linkdin from "../../public/images/logo-linkedin.svg";
 
 export default function EndSection() {
   return (
-    <div className="bg-[#062630] flex flex-col justify-center items-center pt-3 rounded-t-2xl mt-14">
-      <h1 className="text-[#FAF5F3] text-4xl text-center py-8 font-semibold">Ready to debug your reading list?</h1>
+    <div id="back3" className="bg-[#062630] selection:bg-[#2a4b55ab] flex flex-col justify-center items-center pt-3 rounded-t-2xl mt-14">
+      <h1 className="text-[#FAF5F3] text-4xl md:text-6xl md:max-w-[70%] text-center py-8 font-semibold">
+        Ready to debug your reading list?
+      </h1>
       <ButtonUp />
       <div className="flex items-center my-10 mb-16 gap-4">
         <Image width={110} src={img1} alt="amyrobson" />
@@ -20,20 +22,28 @@ export default function EndSection() {
                 <Image key={index} src={star} alt="stars" />
               ))}
           </div>
-          <span
-            className={`text-[16px] text-[#FAF5F3] font-semibold`}
-          >
+          <span className={`text-[16px] text-[#FAF5F3] font-semibold`}>
             200+ developers joined already
           </span>
         </div>
       </div>
       <div className="flex items-center justify-between w-full px-4 py-6 border-t  border-t-[#faf5f354]">
         <div>
-          <h3 className="text-[#FAF5F3] text-[18px] font-semibold">@ 2024 - Tech Book Club</h3>
+          <h3 className="text-[#FAF5F3] text-[18px] font-semibold">
+            @ 2024 - Tech Book Club
+          </h3>
         </div>
         <div className="flex items-center gap-4">
-          <Image src={buterfly} alt="logo-bluesky.svg"  className="cursor-pointer"/>
-          <Image src={linkdin} alt="llogo-linkedin.svg" className="cursor-pointer"/>
+          <Image
+            src={buterfly}
+            alt="logo-bluesky.svg"
+            className="cursor-pointer"
+          />
+          <Image
+            src={linkdin}
+            alt="llogo-linkedin.svg"
+            className="cursor-pointer"
+          />
         </div>
       </div>
     </div>

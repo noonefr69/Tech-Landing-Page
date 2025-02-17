@@ -27,6 +27,13 @@ body{
   background-size: cover;
 }
 
+#back3 {
+  background-image: url("../../public/images/pattern-dark-bg.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;
