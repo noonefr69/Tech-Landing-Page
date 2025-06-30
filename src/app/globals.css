@@ -98,3 +98,39 @@ body{
     @apply bg-background text-foreground;
   }
 }
+
+/* animation */
+
+@keyframes appear {
+  from{
+    opacity: 0;
+    bottom: 1.5rem;
+  }
+  to{
+    opacity: 1;
+    bottom: 0rem;
+  }
+}
+
+.anime{
+  animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry 0 cover 40%;
+}
+
+@keyframes appearForFooter {
+  from{
+    opacity: 0;
+    bottom: 1.5rem;
+  }
+  to{
+    opacity: 1;
+    bottom: 0rem;
+  }
+}
+
+.animeFt{
+  animation: appearForFooter linear;
+  animation-timeline: view();
+  animation-range: entry 0 cover 10%;
+}

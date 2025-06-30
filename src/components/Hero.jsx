@@ -23,18 +23,18 @@ export default function Hero() {
         </nav>
         <div className=" xl:flex xl:items-center">
           <div className="xl:w-1/2">
-            <h1 className="md:text-7xl md:max-w-[80%] xl:max-w-fit pb-8 text-5xl font-bold bg-gradient-to-r from-[#d48050] to-[#062630] bg-clip-text text-transparent">
+            <h1 className="animate-fade-in-right md:text-7xl md:max-w-[80%] xl:max-w-fit pb-8 text-5xl font-bold bg-gradient-to-r from-[#d48050] to-[#062630] bg-clip-text text-transparent">
               Join the ultimate tech book club
             </h1>
             <p
-              className={`${inter.className} text-[#385159] text-[20px] pb-8 `}
+              className={`${inter.className} animate-fade-in-right-delay text-[#385159] text-[20px] pb-8 `}
             >
               Turn your reading time into learning time with fellow tech
               enthusiasts. Get curated recommendations, join vibrant
               discussions, and level up your skills one chapter at a time.
             </p>
             <Button Icon={down} />
-            <div className="flex items-center mb-10 gap-4">
+            <div className="animate-fade-in-right-delay-more-plus flex items-center mb-10 gap-4">
               <Image width={110} src={img1} alt="amyrobson" />
               <div className="">
                 <div className="flex items-center ">
@@ -53,9 +53,9 @@ export default function Hero() {
             </div>
           </div>
           <div className="xl:w-1/2">
-            <div className="pb-16">
+            <div className="animate-fade-in-left pb-16">
               <Image
-                className="rounded-xl w-full md:hidden"
+                className=" rounded-xl w-full md:hidden"
                 src={pic}
                 alt="hero"
               />

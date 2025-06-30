@@ -20,11 +20,11 @@ const inter = Inter({
 export default function MemberShip() {
   return (
     <div className="mt-16 xl:mt-24 xl:mb-32">
-      <h1 className="text-4xl px-1 md:text-6xl md:max-w-[768px] xl:max-w-[1040px] xl:mb-16 text-[#062630] mx-auto text-center font-semibold mb-6">
+      <h1 className="anime relative text-4xl px-1 md:text-6xl md:max-w-[768px] xl:max-w-[1040px] xl:mb-16 text-[#062630] mx-auto text-center font-semibold mb-6">
         Membership options
       </h1>
       <div className="md:px-10 xl:gap-6 px-4 flex flex-col gap-4 md:grid md:grid-cols-2 md:max-w-[768px] xl:max-w-[1040px] xl:justify-center xl:items-center mx-auto xl:flex xl:flex-row">
-        <Card className="xl:w-1/3">
+        <Card className="xl:w-1/3 anime relative">
           <CardHeader>
             <CardTitle>
               <h1 className="text-3xl font-semibold">Starter</h1>
@@ -55,7 +55,7 @@ export default function MemberShip() {
           </CardFooter>
         </Card>
 
-        <Card className="xl:h-[21rem] xl:scale-105 relative xl:w-1/3 overflow-hidden bg-[#FAF5F3]">
+        <Card className="anime relative xl:h-[21rem] xl:scale-105 relative xl:w-1/3 overflow-hidden bg-[#FAF5F3]">
           <CardHeader>
             <CardTitle>
               <h1 className="text-3xl font-semibold">Pro</h1>
@@ -91,7 +91,7 @@ export default function MemberShip() {
           </CardFooter>
         </Card>
 
-        <Card className="xl:w-1/3">
+        <Card className="xl:w-1/3 anime relative">
           <CardHeader>
             <CardTitle>
               <h1 className="text-3xl font-semibold">Enterprise</h1>

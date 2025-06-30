@@ -12,14 +12,14 @@ export default function Journy() {
   return (
     <div
       id="back2"
-      className="md:max-w-[685px] xl:max-w-[1240px] md:px-10 md:mx-auto mt-24 mx-4 flex flex-col justify-center items-center rounded-md relative overflow-hidden"
+      className="anime relative md:max-w-[685px] xl:max-w-[1240px] md:px-10 md:mx-auto mt-24 mx-4 flex flex-col justify-center items-center rounded-md overflow-hidden"
     >
       <div className="mt-16 pb-16 z-10">
-        <h1 className="md:pb-7 text-[#062630] text-center text-4xl md:text-6xl font-semibold">
+        <h1 className="anime md:pb-7 text-[#062630] text-center text-4xl md:text-6xl font-semibold">
           Your tech <br /> reading journey
         </h1>
-        <ul className="mt-10 px-16 space-y-10 md:space-y-0 gap-10 md:grid md:grid-cols-2 justify-center items-center xl:flex">
-          <li className="text-[22px] font-semibold text-[#062630] flex flex-col">
+        <ul className="anime relative mt-10 px-16 space-y-10 md:space-y-0 gap-10 md:grid md:grid-cols-2 justify-center items-center xl:flex">
+          <li className="anime relative text-[22px] font-semibold text-[#062630] flex flex-col">
             <div className="flex items-center justify-between">
               <span className="mb-4 border-2 flex justify-center items-center h-10 w-10 border-[#062630] rounded-md text-[#062630] font-semibold text-[22px] ">
                 1
@@ -28,7 +28,7 @@ export default function Journy() {
             </div>
             Choose your membership tier
           </li>
-          <li className="text-[22px] font-semibold text-[#062630] flex flex-col">
+          <li className="anime relative text-[22px] font-semibold text-[#062630] flex flex-col">
             <div className="flex items-center justify-between">
               <span className="mb-4 border-2 flex justify-center items-center h-10 w-10 border-[#062630] rounded-md text-[#062630] font-semibold text-[22px] ">
                 2
@@ -37,7 +37,7 @@ export default function Journy() {
             </div>
             Get your monthly book selection
           </li>
-          <li className="text-[22px] font-semibold text-[#062630] flex flex-col">
+          <li className="anime relative text-[22px] font-semibold text-[#062630] flex flex-col">
             <div className="flex items-center justify-between">
               <span className="mb-4 border-2 flex justify-center items-center h-10 w-10 border-[#062630] rounded-md text-[#062630] font-semibold text-[22px] ">
                 3
@@ -46,7 +46,7 @@ export default function Journy() {
             </div>
             Join our discussion forums
           </li>
-          <li className="text-[22px] font-semibold text-[#062630] flex flex-col">
+          <li className="anime relative text-[22px] font-semibold text-[#062630] flex flex-col">
             <div className="flex items-center justify-between">
               <span className="mb-4 border-2 flex justify-center items-center h-10 w-10 border-[#062630] rounded-md text-[#062630] font-semibold text-[22px] ">
                 4
